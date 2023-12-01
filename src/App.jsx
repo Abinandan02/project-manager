@@ -18,7 +18,7 @@ function App() {
         projectId: prevState.selectedProjectId,
         id: Math.random(),
       };
-
+      console.log(newTask);
       return {
         ...prevState,
         tasks: [newTask, ...prevState.tasks],
